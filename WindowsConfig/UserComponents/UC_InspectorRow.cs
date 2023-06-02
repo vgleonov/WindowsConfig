@@ -24,7 +24,16 @@ namespace WindowsConfig.UserComponents
             InitializeComponent();
             pCaption.Width = width;
         }
-
+        public string PropertyName
+        {
+            set { lCaption.Text = value; }
+            get { return lCaption.Text; }
+        }
+        public string PropertyValue
+        {
+            set { textValue.Text = value; }
+            get { return textValue.Text; }
+        }
         private void splitter1_SplitterMoved(object sender, SplitterEventArgs e)
         {
 

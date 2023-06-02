@@ -23,6 +23,8 @@ namespace WindowsConfig.UserComponents
         {
             UC_InspectorRow row = new UC_InspectorRow(CaptionWidth) { Dock = DockStyle.Top, Parent = panelBody, Height = 29 };
             row.OnMoved += new UC_InspectorRow.MethodContainer(this.ResizeRows);
+            row.PropertyName = "CaptionWidth";
+            row.PropertyValue = CaptionWidth.ToString();
             panelBody.Visible = false;
             Rows.Add(row);
             panelBody.Controls.Add(row);
