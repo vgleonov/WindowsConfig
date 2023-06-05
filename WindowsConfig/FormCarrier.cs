@@ -68,5 +68,11 @@ namespace WindowsConfig
             FormTestInspector f = new FormTestInspector();
             f.Show();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            FormLogin f = new FormLogin();
+            f.Show();
+        }
     }
 }

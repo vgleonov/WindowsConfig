@@ -31,6 +31,7 @@ namespace WindowsConfig
         {
             this.panelLeft = new System.Windows.Forms.Panel();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.panel5 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -38,25 +39,24 @@ namespace WindowsConfig
             this.button16 = new System.Windows.Forms.Button();
             this.btnTools = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.btnOpenProject = new FontAwesome.Sharp.IconButton();
+            this.btnNewProject = new FontAwesome.Sharp.IconButton();
             this.btnProject = new System.Windows.Forms.Button();
             this.panelExit = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.btnExit = new FontAwesome.Sharp.IconButton();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panelBody = new System.Windows.Forms.Panel();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelHeader = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.btnOpenProject = new FontAwesome.Sharp.IconButton();
-            this.btnNewProject = new FontAwesome.Sharp.IconButton();
-            this.btnExit = new FontAwesome.Sharp.IconButton();
             this.btnLogin = new FontAwesome.Sharp.IconButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelLeft.SuspendLayout();
             this.panelMenu.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -64,8 +64,8 @@ namespace WindowsConfig
             this.panelExit.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panelLogo.SuspendLayout();
-            this.panelHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panelHeader.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelLeft
@@ -93,6 +93,25 @@ namespace WindowsConfig
             this.panelMenu.Size = new System.Drawing.Size(245, 730);
             this.panelMenu.TabIndex = 2;
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.ForeColor = System.Drawing.Color.Gainsboro;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Book;
+            this.iconButton1.IconColor = System.Drawing.Color.Gainsboro;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.IconSize = 32;
+            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton1.Location = new System.Drawing.Point(0, 334);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(245, 40);
+            this.iconButton1.TabIndex = 8;
+            this.iconButton1.Text = "Help";
+            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton1.UseVisualStyleBackColor = true;
             // 
             // panel5
             // 
@@ -194,6 +213,51 @@ namespace WindowsConfig
             this.panel4.Size = new System.Drawing.Size(245, 79);
             this.panel4.TabIndex = 3;
             // 
+            // btnOpenProject
+            // 
+            this.btnOpenProject.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnOpenProject.FlatAppearance.BorderSize = 0;
+            this.btnOpenProject.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOpenProject.Font = new System.Drawing.Font("Arial Unicode MS", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnOpenProject.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnOpenProject.IconChar = FontAwesome.Sharp.IconChar.FolderOpen;
+            this.btnOpenProject.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnOpenProject.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnOpenProject.IconSize = 32;
+            this.btnOpenProject.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOpenProject.Location = new System.Drawing.Point(0, 40);
+            this.btnOpenProject.Name = "btnOpenProject";
+            this.btnOpenProject.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnOpenProject.Size = new System.Drawing.Size(245, 40);
+            this.btnOpenProject.TabIndex = 1;
+            this.btnOpenProject.Text = "Open";
+            this.btnOpenProject.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOpenProject.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnOpenProject.UseVisualStyleBackColor = true;
+            // 
+            // btnNewProject
+            // 
+            this.btnNewProject.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnNewProject.FlatAppearance.BorderSize = 0;
+            this.btnNewProject.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNewProject.Font = new System.Drawing.Font("Arial Unicode MS", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnNewProject.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnNewProject.IconChar = FontAwesome.Sharp.IconChar.File;
+            this.btnNewProject.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnNewProject.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnNewProject.IconSize = 32;
+            this.btnNewProject.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNewProject.Location = new System.Drawing.Point(0, 0);
+            this.btnNewProject.Name = "btnNewProject";
+            this.btnNewProject.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnNewProject.Size = new System.Drawing.Size(245, 40);
+            this.btnNewProject.TabIndex = 0;
+            this.btnNewProject.Text = "New";
+            this.btnNewProject.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNewProject.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnNewProject.UseVisualStyleBackColor = true;
+            this.btnNewProject.Click += new System.EventHandler(this.btnNewProject_Click);
+            // 
             // btnProject
             // 
             this.btnProject.Dock = System.Windows.Forms.DockStyle.Top;
@@ -249,6 +313,26 @@ namespace WindowsConfig
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(8, 4);
             this.panel8.TabIndex = 3;
+            // 
+            // btnExit
+            // 
+            this.btnExit.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnExit.FlatAppearance.BorderSize = 0;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnExit.IconChar = FontAwesome.Sharp.IconChar.DoorOpen;
+            this.btnExit.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnExit.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnExit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnExit.Location = new System.Drawing.Point(0, 8);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(245, 45);
+            this.btnExit.TabIndex = 10;
+            this.btnExit.Text = "Exit";
+            this.btnExit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click_1);
             // 
             // panel6
             // 
@@ -308,6 +392,17 @@ namespace WindowsConfig
             this.panel2.Size = new System.Drawing.Size(245, 4);
             this.panel2.TabIndex = 16;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox1.Image = global::WindowsConfig.Properties.Resources.ljoljo;
+            this.pictureBox1.Location = new System.Drawing.Point(59, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(127, 75);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // panelHeader
             // 
             this.panelHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(59)))));
@@ -329,90 +424,6 @@ namespace WindowsConfig
             this.panel10.Size = new System.Drawing.Size(100, 2);
             this.panel10.TabIndex = 0;
             // 
-            // iconButton1
-            // 
-            this.iconButton1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Book;
-            this.iconButton1.IconColor = System.Drawing.Color.Gainsboro;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.IconSize = 32;
-            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.Location = new System.Drawing.Point(0, 334);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(245, 40);
-            this.iconButton1.TabIndex = 8;
-            this.iconButton1.Text = "Help";
-            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton1.UseVisualStyleBackColor = true;
-            // 
-            // btnOpenProject
-            // 
-            this.btnOpenProject.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnOpenProject.FlatAppearance.BorderSize = 0;
-            this.btnOpenProject.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOpenProject.Font = new System.Drawing.Font("Arial Unicode MS", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnOpenProject.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnOpenProject.IconChar = FontAwesome.Sharp.IconChar.FolderOpen;
-            this.btnOpenProject.IconColor = System.Drawing.Color.Gainsboro;
-            this.btnOpenProject.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnOpenProject.IconSize = 32;
-            this.btnOpenProject.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOpenProject.Location = new System.Drawing.Point(0, 40);
-            this.btnOpenProject.Name = "btnOpenProject";
-            this.btnOpenProject.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnOpenProject.Size = new System.Drawing.Size(245, 40);
-            this.btnOpenProject.TabIndex = 1;
-            this.btnOpenProject.Text = "Open";
-            this.btnOpenProject.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOpenProject.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnOpenProject.UseVisualStyleBackColor = true;
-            // 
-            // btnNewProject
-            // 
-            this.btnNewProject.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnNewProject.FlatAppearance.BorderSize = 0;
-            this.btnNewProject.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNewProject.Font = new System.Drawing.Font("Arial Unicode MS", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnNewProject.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnNewProject.IconChar = FontAwesome.Sharp.IconChar.File;
-            this.btnNewProject.IconColor = System.Drawing.Color.Gainsboro;
-            this.btnNewProject.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnNewProject.IconSize = 32;
-            this.btnNewProject.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNewProject.Location = new System.Drawing.Point(0, 0);
-            this.btnNewProject.Name = "btnNewProject";
-            this.btnNewProject.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnNewProject.Size = new System.Drawing.Size(245, 40);
-            this.btnNewProject.TabIndex = 0;
-            this.btnNewProject.Text = "New";
-            this.btnNewProject.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNewProject.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnNewProject.UseVisualStyleBackColor = true;
-            this.btnNewProject.Click += new System.EventHandler(this.btnNewProject_Click);
-            // 
-            // btnExit
-            // 
-            this.btnExit.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnExit.FlatAppearance.BorderSize = 0;
-            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExit.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnExit.IconChar = FontAwesome.Sharp.IconChar.DoorOpen;
-            this.btnExit.IconColor = System.Drawing.Color.Gainsboro;
-            this.btnExit.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnExit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExit.Location = new System.Drawing.Point(0, 8);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(245, 45);
-            this.btnExit.TabIndex = 10;
-            this.btnExit.Text = "Exit";
-            this.btnExit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click_1);
-            // 
             // btnLogin
             // 
             this.btnLogin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -431,17 +442,7 @@ namespace WindowsConfig
             this.btnLogin.Text = "Login";
             this.btnLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLogin.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox1.Image = global::WindowsConfig.Properties.Resources.ljoljo;
-            this.pictureBox1.Location = new System.Drawing.Point(59, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(127, 75);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // FormCarrier
             // 
@@ -465,8 +466,8 @@ namespace WindowsConfig
             this.panelExit.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
-            this.panelHeader.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panelHeader.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
